@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Ada programming: accessing an array element outside of its defined bounds.  The `bug.ada` file contains code that attempts to access an element beyond the array's index range, leading to a `Constraint_Error`. The solution, shown in `bugSolution.ada`, demonstrates how to prevent this error with proper index checking.
